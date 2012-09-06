@@ -1,4 +1,1 @@
-rAppid.js-piwik
-===============
-
-Piwik component for rAppid.js
+# rAppid.js-piwik - Component for tracking rAppid.js applications with piwik
