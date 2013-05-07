@@ -11,7 +11,7 @@
     "lib": "piwik",
     "repository": {
         "type": "git",
-        "url": "git://github.com/it-ony/rAppid.js-piwik.git"
+        "url": "git://github.com/rappid/rAppid.js-piwik.git"
     },
     "keywords": [
         "rAppid",
