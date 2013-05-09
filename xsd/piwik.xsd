@@ -1,0 +1,26 @@
+<schema targetNamespace="piwik"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:ns1="js.core"
+    xmlns:ns="piwik">
+    <import namespace="js.core"/>
+    <element name="Tracker" type="ns:Tracker"/>
+    <complexType name="Tracker">
+        <complexContent>
+            <extension base="ns1:Component">
+                <annotation>
+                    <documentation source="http://www.rappidjs.com/#/api/piwik.Tracker">
+                                 TODO: build an own implementation
+ see http://piwik.org/docs/tracking-api/reference/
+                            </documentation>
+                </annotation>
+                <sequence>
+                    <any processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+                </sequence>
+                <attribute name="siteId" default="1"/>
+                <attribute name="piwikUrl"/>
+                <attribute name="baseUrl"/>
+                <attribute name="enableLinkTracking" default="true"/>
+            </extension>
+        </complexContent>
+    </complexType>
+</schema>
